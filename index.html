@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>valida cedula dominicana</title>
+    <title>Valida cedula dominicana</title>
     <link rel="stylesheet" href="stylo.css">
-    <link rel="stylesheet" href="Valida.js">
 </head>
-
-<header class="encabezado">
-    <H1>Validacion De Cedula Dominicana</H1>
-</header>
-
 <body>
+    <header class="encabezado">
+        <h1>Validación De Cédula Dominicana</h1>
+    </header>
 
-    <form action="Valida.js" >
-        <label for="">Ingrese el Numero De Cedula</label>
-        <input type="text" name="cedula" id="cedula" placeholder="Numero de cedula" maxlength="
-        11">
-        <button onclick="validar()">Verificar</button>
-        
- 
-    </form>
+    <section>
+        <p>Valida cédula dominicana te permite verificar si tu número de identificación es correcto.</p>
+    </section>
 
+    <main class="central">
+        <form>
+            <label for="cedula">Ingrese el Número De Cédula</label>
+            <input type="text" name="cedula" id="cedula" placeholder="Número de cédula" maxlength="11">
+            <button type="button" onclick="validar()">Verificar</button>
+        </form>
+    </main>
     
+    <script src="Valida.js"></script>
 </body>
 </html>

@@ -1,3 +1,6 @@
+body{
+    background-color: #b08e6b;
+}
 .encabezado h1{
     text-align: center;
     text-decoration: double;
@@ -5,4 +8,29 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     
+}
+section p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.central{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #e8c39e;
+    padding: 10px 3px; /* 10px para arriba/abajo, 3px para izquierda/derecha */
+    text-align: center;
+    border-bottom: 10px solid #f5e1ce; /* border-width y border-style combinados */
+    border-radius: 15px;
+}
+.central form label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 5px;
+   
+}
+.central form button{
+    padding: 2px;
+    padding-left: 3px;
 }
