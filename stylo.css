@@ -9,6 +9,9 @@ body{
     font-style: italic;
     
 }
+header{
+    background-color: #f5e1ce;
+}
 section p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -16,13 +19,16 @@ section p{
 }
 
 .central{
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
+   
     background-color: #e8c39e;
-    padding: 10px 3px; /* 10px para arriba/abajo, 3px para izquierda/derecha */
+    padding: 15px 3px;
     text-align: center;
-    border-bottom: 10px solid #f5e1ce; /* border-width y border-style combinados */
+    border-bottom: 10px solid #f5e1ce; 
     border-radius: 15px;
+    
+    
 }
 .central form label{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,4 +39,23 @@ section p{
 .central form button{
     padding: 2px;
     padding-left: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+footer{
+    
+    margin-top: 250px;
+    margin-inline-end: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 2px;
+    padding-top: 30px;
+    width: 1325px;
+    border-radius: 10px;
+    border-color: #e8c39e;
+    border-style: double;
+    padding: 5px;
+    background-color: #e8c39e;
+
 }
