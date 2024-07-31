@@ -1,61 +1,102 @@
-body{
-    background-color: #b08e6b;
-}
-.encabezado h1{
-    text-align: center;
-    text-decoration: double;
-    font-size: 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    
-}
-header{
-    background-color: #f5e1ce;
-}
-section p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
-    font-style: italic;
+* {
+   margin    : 0;
+   padding   : 0;
+   border    : 0;
+   box-sizing: border-box;
+
 }
 
-.central{
-    width: 500px;
-    margin: 0 auto;
-   
-    background-color: #e8c39e;
-    padding: 15px 3px;
-    text-align: center;
-    border-bottom: 10px solid #f5e1ce; 
-    border-radius: 15px;
-    
-    
+body {
+   background-image     : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./bandera.jpg");
+   background-repeat    : no-repeat;
+   background-size      : cover;
+   background-attachment: fixed;
+   background-position  : left;
+
+
 }
-.central form label{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    padding: 5px;
-   
+
+.inf {
+   display: flex;
+   width           : 100%;
+   background-color: white;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   padding         : 3px;
+   font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin          : 0 auto;
 }
-.central form button{
-    padding: 2px;
-    padding-left: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
+
+.cont-img{
+   width: 200px;
+  
 }
-footer{
-    
-    margin-top: 250px;
-    margin-inline-end: 5px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    padding: 2px;
-    padding-top: 30px;
-    width: 1325px;
-    border-radius: 10px;
-    border-color: #e8c39e;
-    border-style: double;
-    padding: 5px;
-    background-color: #e8c39e;
+
+img {
+   width: 20px;
+}
+
+h1 {
+   text-transform: uppercase;
+   color         : white;
+   font-weight   : bold;
+   font-size     : 50px;
+   font-family   : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+   font-size  : 15px;
+   font-weight: 300px;
+}
+
+section {
+   color    : rgb(202, 199, 212);
+   font-size: 20px;
+}
+
+main {
+   display          : flex;
+   flex-direction   : column;
+   /* margin-top    : 150px; */
+   flex             : 1;
+   text-align       : center;
+   justify-content  : center;
+   gap              : 25px;
+   padding          : 150px;
+
+}
+
+#btn {
+   width           : 40px;
+   padding         : 10px;
+   border-radius   : 20px;
+   /* font-size    : 15px; */
+   font-weight     : bold;
+   text-align      : center;
+   color           : blue;
+   cursor          : pointer;
+
+}
+
+
+form #cedula {
+   background-color: aliceblue;
+   border-color    : black;
+   width           : 350px;
+   padding         : 10px;
+   border-radius   : 20px;
+}
+
+footer {
+   text-align : center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
+   font-size  : 80%;
+   font-weight: bold;
+   font-style : italic;
+   padding    : 5px;
+   width      : 100%;
+   position   : fixed;
+   bottom     : 0;
 
 }
