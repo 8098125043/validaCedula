@@ -7,7 +7,7 @@
 }
 
 body {
-   background-image     : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./bandera.jpg");
+   background-image     : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bandera.jpg");
    background-repeat    : no-repeat;
    background-size      : cover;
    background-attachment: fixed;
@@ -17,20 +17,20 @@ body {
 }
 
 .inf {
-   display: flex;
+   display         : flex;
    width           : 100%;
    background-color: white;
-   justify-content: center;
-   align-items: center;
-   gap: 5px;
+   justify-content : center;
+   align-items     : center;
+   gap             : 5px;
    padding         : 3px;
    font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    margin          : 0 auto;
 }
 
-.cont-img{
+.cont-img {
    width: 200px;
-  
+
 }
 
 img {
